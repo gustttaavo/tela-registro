@@ -1,0 +1,76 @@
+body {
+
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #1a1919;
+}
+
+* {
+    border: none;
+}
+
+.card {
+    background-color: #353232;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 70%; /* Largura do card */
+    max-width: 400px;
+    text-align: center;
+    border-radius: 11px;
+}
+.titulo{
+    color:white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    margin-bottom: 10px; /* Espaçamento entre os inputs */
+    padding: 10px; /* Preenchimento nos inputs */
+    border-radius:11px;
+}
+
+.nome-sobrenome {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.nome-sobrenome input {
+    flex: 1;
+    width: calc(50% - 5px);
+    margin-bottom: 15px; /* Espaçamento maior entre os campos Nome e Sobrenome */
+    padding: 10px;
+}
+button {
+    background-color: #ccc; 
+    border: none;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 auto; 
+    display: block;
+}
+
+button:hover {
+    background-color: #999; 
+}
+a {
+    color: white; 
+    font-size: 14px; 
+    text-decoration: none; 
+}
+
+
+p {
+    color: white; 
+    font-size: 12px; 
+}
